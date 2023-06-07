@@ -1,0 +1,25 @@
+.modal {
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    .modalTop {
+        display: flex;
+        flex-direction: row-reverse;
+        span {
+            color: #fff;
+            margin: 10px;
+        }
+        span:hover {
+            background-color: #fff;
+            color: #1f1f1f;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.mainView {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .sideLeft {
+        min-width: 250px !important;
+        max-width: 250px !important;
+        overflow: hidden;
+        position: relative;
+        background: transparent;
+    }
+    .contentSiderLeft {
+        color: #fff;
+    }
+    .content {
+        width: 100%;
+        height: 650px;
+        background: transparent;
+        .viewContent {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            .headerContent {
+                .viewHeaderContent {
+                    width: 100%;
+                    height: 100%;
+                    color: #fff !important;
+                }
+            }
+            .viewMain {
+                padding: 5px;
+                .viewMainContent {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .sideRight {
+        min-width: 250px !important;
+        max-width: 250px !important;
+        overflow: hidden;
+        position: relative;
+        background: transparent;
+    }
+    .contentSiderRight {
+        color: #fff;
+    }
+}

@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(5, 25px);
+    grid-template-columns: repeat(6, 25px);
+    gap: 1px;
+    .row {
+        background-color: lightgray;
+        border: 1px solid gray;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rowhover {
+        background-color: #bae637;
+    }
+    .transparent {
+        opacity: 0;
+    }
+}

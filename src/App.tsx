@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Hompages from "./pages/hompages/Hompages";
+import styles from "./App.module.scss";
+import ModalBasic from "./components/modal/Modal";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+type Props = {};
+
+const App = (_props: Props) => {
+    return (
+        <div className={styles.app}>
+            <Hompages />
+        </div>
+    );
+};
 
 export default App;
